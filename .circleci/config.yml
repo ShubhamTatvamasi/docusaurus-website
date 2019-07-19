@@ -22,11 +22,8 @@ jobs:
             git config --global user.email "shubhamtatvamasi@gmail.com"
             git config --global user.name "Shubham Tatvamasi"
             echo "machine github.com login ShubhamTatvamasi password $GITHUB_TOKEN" > ~/.netrc
-            cd website
-            yarn install
-            GIT_USER=ShubhamTatvamasi
-            CUSTOM_COMMIT_MESSAGE="[skip ci]"
-            yarn run publish-gh-pages
+            cd website && yarn install && GIT_USER=ShubhamTatvamasi \
+            CUSTOM_COMMIT_MESSAGE="[skip ci]" yarn run publish-gh-pages
 
 workflows:
   version: 2.1
