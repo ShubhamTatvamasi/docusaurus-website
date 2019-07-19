@@ -1,13 +1,13 @@
 # If you only want circle to run on direct commits to master, you can uncomment this out
 # and uncomment the filters: *filter-only-master down below too
-
+---
 aliases:
  - &filter-only-master
    branches:
      only:
        - master
 
-version: 2
+version: 2.1
 jobs:
   deploy-website:
     docker:
@@ -25,8 +25,9 @@ jobs:
             cd website && yarn install && GIT_USER=ShubhamTatvamasi yarn run publish-gh-pages
 
 workflows:
-  version: 2
+  version: 2.1
   build_and_deploy:
     jobs:
       - deploy-website:
         filters: *filter-only-master
+...
