@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shubhamtatvamasi.github.io/docusaurus-website/blog</id>
-    <title>Docusaurus Website Blog</title>
+    <title>My Docusaurus Website Blog</title>
     <updated>2017-10-24T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://shubhamtatvamasi.github.io/docusaurus-website/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Docusaurus Website news and events.</subtitle>
+    <subtitle>The best place to stay up-to-date with the latest My Docusaurus Website news and events.</subtitle>
     <logo>https://shubhamtatvamasi.github.io/docusaurus-website/img/favicon.ico</logo>
     <rights>Copyright © 2019 Your Name or Your Company Name</rights>
     <entry>
