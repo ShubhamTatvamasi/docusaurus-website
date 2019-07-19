@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>My Docusaurus Website Blog</title>
+        <title>Docusaurus Website Blog</title>
         <link>https://shubhamtatvamasi.github.io/docusaurus-website/blog</link>
-        <description>The best place to stay up-to-date with the latest My Docusaurus Website news and events.</description>
+        <description>The best place to stay up-to-date with the latest Docusaurus Website news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>My Docusaurus Website Blog</title>
+            <title>Docusaurus Website Blog</title>
             <url>https://shubhamtatvamasi.github.io/docusaurus-website/img/favicon.ico</url>
             <link>https://shubhamtatvamasi.github.io/docusaurus-website/blog</link>
         </image>
