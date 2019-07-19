@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Docusaurus Website', // Title for your website.
+  title: 'My Docusaurus Website', // Title for your website.
   tagline: 'The website for testing Docusaurus',
   url: 'https://shubhamtatvamasi.github.io', // Your website URL
   baseUrl: '/docusaurus-website/', // Base URL for your project */
